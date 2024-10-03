@@ -1,0 +1,323 @@
+/* ----------------front link start---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* =================front link end================= */
+/* ----------------common css start--------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1298px;
+    margin: 0 auto;
+}
+/* ==============common css end=================== */
+/* --------------menu part css start---------------*/
+.menu_row {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_row .logo_col img{
+    width: 133px;
+}
+.menu_col ul {
+    display: flex;
+    gap: 59px;
+}
+.menu_col ul li a{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    transition: all linear .1s;
+}
+.menu_col ul li a:hover{
+    color: #FDBB57;
+}
+.menu_button a{
+    width: 121px;
+    height: 57px;
+    border: 1px solid #FFD687;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    line-height: 57px;
+}
+.menu_button a:hover{
+    background-color: #FDBB57;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/* =============== menu part end ================= */
+/* ---------------banner part start---------------- */
+.banner_row{
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1{
+    width: 449px;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+.banner_text p{
+    width: 531px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 76px;
+}
+.banner_botton a{
+    width: 319px;
+    height: 86px;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 86px;
+}
+.banner_botton a:active{
+    transform: scale(.8);
+}
+.banner_img img{
+    width: 627px;
+}
+/* ===============banner part end================== */
+/* -----------collection part start---------------- */
+.collection{
+    margin-top: 100px;
+}
+.collection_text h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+    margin-bottom: 41px;
+}
+.collection_text p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.collection_card{
+    display: flex;
+    gap: 91px;
+}
+.single_card{
+    width: 349px;
+    height: 402px;
+    background-image: url(../image/collection_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.single_card a{
+    padding: 9px 104px 6px 112px;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 44px;
+    left: 700px;
+    transform: translateX(-50%);
+    transition: all linear .2s;
+}
+.single_card:hover a{
+    left: 50%;
+}
+.card2{
+    background-image: url(../image/collection_2.png);
+} 
+.card2 a{
+    left: -700px;
+}
+.card2:hover a{
+    left: 50%;
+}
+.card3 {
+    background-image: url(../image/collection_3.png);
+}
+.card3 a{
+    bottom: -200px;
+    left: 50%;
+}
+.card3:hover a{
+    bottom: 44px;
+}
+/* ===========collection part end=================== */
+/* -------------fashion part start---------------- */
+.fashion{
+    margin-top: 212px;
+}
+.fashion_head {
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+    position: relative;
+}
+.fashion_text h2{
+    width: 387px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+}
+.fashion_text p{
+    margin-top: 63px;
+    height: 186px;
+    width: 403px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Frank Ruhl Libre", serif;
+}
+.fashion_count {
+    width: 793px;
+    margin-top: 136px;
+    margin-bottom: 96px;
+    padding-left: 29px;
+    padding-top: 69px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    background-color: #FEECC8;
+    display: flex;
+    gap: 59px;
+}
+.fashion_row{
+    display: flex;
+    gap: 27px;
+}
+.double_card h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: #000;
+}
+.double_card h4{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.fashion_row .part_line{
+    width: 1px;
+    height: 143px;
+    background-color: #000;
+}
+.fashion_img img {
+    width: 749px;
+    position: absolute;
+    top: -125px;
+    left: -37px;
+}
+/* ==============fashion part end================= */
+/* -------------footer part end------------------ */
+.footer{
+    width: 100%;
+    background-color:#CFA485;
+    padding-top: 35px;
+    padding-bottom: 192px;
+}
+.footer_row{
+    display: flex;
+    gap: 20px;
+}
+.footer_text {
+    padding-left: 60px;
+}
+.footer_text h2{
+    width: 315px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+}
+.footer_text h3{
+    width: 437px;
+    margin-top: 43px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+}
+.footer_button a{
+    margin-top: 40px;
+    width: 319px;
+    height: 86px;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 86px;
+    transition: all linear .2s;
+}
+.footer_button a:active{
+    transform: scale(.9);
+}
+.footer_card{
+    display: flex;
+    gap: 31px;
+}
+.first_card{
+    width: 366px;
+    background-color: #fff;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.bootom_text_card{
+    padding-top: 14px;
+    padding-bottom: 9px;
+    padding-left: 22px;
+}
+.bootom_text_card ul {
+    display: flex;
+    gap: 8px;
+}
+.bootom_text_card ul li i{
+    color: #FFAF37;
+}
+.bootom_text_card h4 {
+    padding-top: 11px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.bootom_text_card h5 {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.bootom_text_card h5 span {
+    color: #C4C4C4;
+    padding-right: 31px;
+}
+/* =============footer part end ================= */
